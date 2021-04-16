@@ -1,0 +1,58 @@
+.newsletter {
+  &-terms-of-service {
+    color: $gray-1;
+    padding: 1.7vw 2.2vw;
+    font-size: 0.9vw;
+
+    @include screen-mobile {
+      font-size: 5.5vw;
+      padding: 2vw 0vw;
+    }
+
+    input[type="checkbox" i] {
+      border-radius: 12%;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 1px solid $gray-1;
+
+      @include screen-desktop {
+        position: relative;
+        top: 0.5vw;
+        left: -0.2vw;
+        width: 1.4vw;
+        height: 1.4vw;
+
+      }
+
+      @include screen-mobile {
+        position: relative;
+        top: 3vw;
+        width: 7vw;
+        height: 7vw;
+        margin-right: 2vw;
+      }
+
+      &:checked {
+        background: $blue-1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .underline {
+      text-decoration: underline;
+      color: $black;
+
+      &:hover {
+        color: $light-blue-2;
+      }
+
+      &:active {
+        color: $blue-1;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.newsletter {
+  &-social-icons {
+    text-align: center;
+    margin-top: 4.5vw;
+
+    @include screen-mobile {
+      margin-top: 14vw;
+    }
+
+    span {
+      padding: 0.6vw;
+      border: 3px solid $gray-2;
+      border-radius: 50%;
+      font-size: 0.6vw;
+      margin: 0.5vw;
+
+      @include screen-mobile {
+        margin: 0vw 1.5vw;
+        padding: 3vw;
+        font-size: 3vw;
+      }
+    }
+
+    .icon-ic-youtube {
+      @include icon-hover($red-1, $red-2);
+    }
+
+    .icon-ic_twitter {
+      @include screen-mobile {
+        padding: 3.4vw;
+      }
+
+      @include icon-hover($light-blue-1, $light-blue-2);
+    }
+
+    .icon-ic_facebook {
+      padding: 0.6vw 0.8vw;
+
+      @include screen-mobile {
+        font-size: 4vw;
+        padding: 3.2vw 4.2vw;
+      }
+
+      @include icon-hover($blue-2, $blue-3);
+    }
+
+    .icon-ic-instagram {
+      @include screen-mobile {
+        font-size: 4vw;
+        padding: 3vw 3.5vw;
+      }
+
+      @include icon-hover($purple-1, $purple-2);
+    }
+  }
+}

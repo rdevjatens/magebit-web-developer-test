@@ -1,0 +1,309 @@
+/*
+  Navigation styling
+*/
+.navbar {
+  width: 100%;
+  background: $white;
+  text-align: right;
+  @include remove-space-around;
+
+  ul {
+    padding: 4vw 5vw;
+
+    @include screen-mobile {
+      padding: 6vw 4.5vw;
+    }
+  }
+
+  li {
+    display: inline-block;
+    padding: 0.2vw;
+    font-size: 0.9vw;
+
+    @include text-arial;
+
+    &:not(:last-child) {
+      margin-right: 0.7vw;
+    }
+
+    @include screen-mobile {
+      font-size: 3.6vw;
+      padding: 1vw;
+
+      &:not(:last-child) {
+        margin-right: 3vw;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $gray-1;
+    }
+  }
+
+  .logo {
+    &-text {
+      color: $black;
+
+      @include screen-desktop {
+        margin-right: 4.4vw;
+      }
+
+      @include screen-mobile {
+        display: none;
+      }
+    }
+
+    .icon-ic-pineapple {
+      position: absolute;
+      color: $blue-1;
+
+      @include screen-desktop {
+        position: relative;
+        top: 0.3vw;
+        left: -0.5vw;
+        font-size: 2vw;
+      }
+
+      @include screen-mobile {
+        position: absolute;
+        top: 3vw;
+        left: 5.5vw;
+        font-size: 5vh;
+      }
+    }
+  }
+}
+
+/*
+  Newsletter container styling
+*/
+.newsletter {
+  padding: 4.5vw 5vw;
+  background: $white;
+
+  @include screen-mobile {
+    height: 335px;
+    margin: 50vw 5vw;
+    letter-spacing: 0.1vw;
+  }
+
+
+  &-text {
+    @include screen-desktop {
+      padding: 1.8vw 2.2vw;
+    }
+
+    h1 {
+      font-weight: 400;
+
+      @include screen-desktop {
+        letter-spacing: 0.08vw;
+        font-weight: 400;
+        font-size: 1.7vw;
+      }
+
+      @include screen-mobile {
+        font-family: Georgia;
+        font-size: 6.2vw;
+        letter-spacing: 0.4vw;
+      }
+    }
+
+    p {
+      font-size: 0.85vw;
+
+      @include screen-desktop {
+        padding-top: 0.5vw;
+      }
+
+      @include screen-mobile {
+        font-size: 4vw;
+        line-height: 3vh;
+      }
+    }
+  }
+
+  &-email {
+    position: relative;
+    background: $white;
+    z-index: 999;
+
+    @include screen-desktop {
+      width: 135%;
+      margin-top: 0.4vw;
+      border: 0.1vw solid $gray-2;
+      border-left: 0.3vw solid $blue-1;
+    }
+
+    @include screen-mobile {
+      width: 98%;
+      margin-top: 6vw;
+      border-left: 1.5vw solid $blue-1;
+      padding-top: 0.2vh;
+      padding-bottom: 0.2vh;
+    }
+
+    input {
+      @include screen-desktop {
+        width: 90%;
+        height: 7%;
+        border: 0px;
+        font-size: 0.9vw;
+        padding-left: 2vw;
+      }
+
+      @include screen-mobile {
+        width: 80%;
+        height: 15%;
+        border: 0;
+        font-size: 4vw;
+        margin-left: 3.2vw;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+      }
+    }
+
+    &:hover {
+      @include screen-desktop {
+        border: 1px solid $blue-1;
+        border-left: 0.3vw solid $blue-1;
+      }
+
+      @include screen-mobile {
+        border: 1px solid $blue-1;
+        border-left: 1.5vw solid $blue-1;
+      }
+    }
+
+    &:hover .icon-ic_arrow:before {
+      color: $blue-1;
+      font-weight: bold;
+    }
+
+    .icon-ic_arrow {
+      color: $gray-1;
+      opacity: 0.5;
+      font-size: 1vw;
+
+      @include screen-mobile {
+        font-size: 3.5vw;
+      }
+    }
+  }
+
+  &-terms-of-service {
+    color: $gray-1;
+    padding: 1.7vw 2.2vw;
+    font-size: 0.9vw;
+
+    @include screen-mobile {
+      font-size: 5.5vw;
+      padding: 2vw 0vw;
+    }
+
+    input[type="checkbox" i] {
+      border-radius: 12%;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: 1px solid $gray-1;
+
+      @include screen-desktop {
+        position: relative;
+        top: 0.5vw;
+        left: -0.2vw;
+        width: 1.4vw;
+        height: 1.4vw;
+
+      }
+
+      @include screen-mobile {
+        position: relative;
+        top: 3vw;
+        width: 7vw;
+        height: 7vw;
+        margin-right: 2vw;
+      }
+
+      &:checked {
+        background: $blue-1;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .underline {
+      text-decoration: underline;
+      color: $black;
+
+      &:hover {
+        color: $light-blue-2;
+      }
+
+      &:active {
+        color: $blue-1;
+      }
+    }
+  }
+
+  &-social-icons {
+    text-align: center;
+    margin-top: 4.5vw;
+
+    @include screen-mobile {
+      margin-top: 14vw;
+    }
+
+    span {
+      padding: 0.6vw;
+      border: 3px solid $gray-2;
+      border-radius: 50%;
+      font-size: 0.6vw;
+      margin: 0.5vw;
+
+      @include screen-mobile {
+        margin: 0vw 1.5vw;
+        padding: 3vw;
+        font-size: 3vw;
+      }
+    }
+
+    .icon-ic-youtube {
+      @include icon-hover($red-1, $red-2);
+    }
+
+    .icon-ic_twitter {
+      @include screen-mobile {
+        padding: 3.4vw;
+      }
+
+      @include icon-hover($light-blue-1, $light-blue-2);
+    }
+
+    .icon-ic_facebook {
+      padding: 0.6vw 0.8vw;
+
+      @include screen-mobile {
+        font-size: 4vw;
+        padding: 3.2vw 4.2vw;
+      }
+
+      @include icon-hover($blue-2, $blue-3);
+    }
+
+    .icon-ic-instagram {
+      @include screen-mobile {
+        font-size: 4vw;
+        padding: 3vw 3.5vw;
+      }
+
+      @include icon-hover($purple-1, $purple-2);
+    }
+  }
+}

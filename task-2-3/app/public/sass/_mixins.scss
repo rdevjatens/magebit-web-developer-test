@@ -1,0 +1,38 @@
+/*
+  Mixins
+*/
+@mixin remove-space-around {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin screen-mobile {
+  @media only screen and (max-width: $screen-mobile) {
+    @content
+  }
+};
+
+@mixin text-arial {
+  font-family: Arial;
+  font-weight: 400;
+}
+
+@mixin icon-hover($background-color, $clicked-color) {
+  &:hover {
+    background-color: $background-color;
+    color: $white;
+    border: 3px solid $background-color;
+  }
+
+  &:active {
+    background-color: $clicked-color;
+    color: $white;
+    border: 3px solid $clicked-color;
+  }
+}
+
+@mixin screen-desktop {
+  @media only screen and (min-width: 376px) {
+    @content
+  }
+}

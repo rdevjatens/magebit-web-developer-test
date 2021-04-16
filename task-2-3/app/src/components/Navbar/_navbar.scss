@@ -1,0 +1,76 @@
+/*
+  Navigation styling
+*/
+.navbar {
+  width: 100%;
+  background: $white;
+  text-align: right;
+  @include remove-space-around;
+
+  ul {
+    padding: 4vw 5vw;
+
+    @include screen-mobile {
+      padding: 6vw 4.5vw;
+    }
+  }
+
+  li {
+    display: inline-block;
+    padding: 0.2vw;
+    font-size: 0.9vw;
+
+    @include text-arial;
+
+    &:not(:last-child) {
+      margin-right: 0.7vw;
+    }
+
+    @include screen-mobile {
+      font-size: 3.6vw;
+      padding: 1vw;
+
+      &:not(:last-child) {
+        margin-right: 3vw;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $gray-1;
+    }
+  }
+
+  .logo {
+    &-text {
+      color: $black;
+
+      @include screen-desktop {
+        margin-right: 4.4vw;
+      }
+
+      @include screen-mobile {
+        display: none;
+      }
+    }
+
+    .icon-ic-pineapple {
+      position: absolute;
+      color: $blue-1;
+
+      @include screen-desktop {
+        position: relative;
+        top: 0.3vw;
+        left: -0.5vw;
+        font-size: 2vw;
+      }
+
+      @include screen-mobile {
+        position: absolute;
+        top: 3vw;
+        left: 5.5vw;
+        font-size: 5vh;
+      }
+    }
+  }
+}

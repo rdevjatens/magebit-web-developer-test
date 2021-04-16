@@ -1,0 +1,72 @@
+.newsletter {
+  &-email {
+    position: relative;
+    background: $white;
+    z-index: 999;
+
+    @include screen-desktop {
+      width: 135%;
+      margin-top: 0.4vw;
+      border: 0.1vw solid $gray-2;
+      border-left: 0.3vw solid $blue-1;
+    }
+
+    @include screen-mobile {
+      width: 98%;
+      margin-top: 6vw;
+      border-left: 1.5vw solid $blue-1;
+      padding-top: 0.2vh;
+      padding-bottom: 0.2vh;
+    }
+
+    input {
+      @include screen-desktop {
+        width: 84%;
+        height: 3.4vw;
+        border: 0px;
+        font-size: 0.9vw;
+        padding-left: 2vw;
+      }
+
+      @include screen-mobile {
+        width: 80%;
+        height: 15%;
+        border: 0;
+        font-size: 4vw;
+        margin-left: 3.2vw;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+      }
+    }
+
+    &:hover {
+      @include screen-desktop {
+        border: 1px solid $blue-1;
+        border-left: 0.3vw solid $blue-1;
+      }
+
+      @include screen-mobile {
+        border: 1px solid $blue-1;
+        border-left: 1.5vw solid $blue-1;
+      }
+    }
+
+    &:hover .icon-ic_arrow:before {
+      color: $blue-1;
+      font-weight: bold;
+    }
+
+    .icon-ic_arrow {
+      color: $gray-1;
+      opacity: 0.5;
+      font-size: 1vw;
+
+      @include screen-mobile {
+        font-size: 3.5vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.newsletter {
+  &-text {
+    @include screen-desktop {
+      padding: 1.8vw 2.2vw;
+    }
+
+    h1 {
+      font-weight: 400;
+
+      @include screen-desktop {
+        letter-spacing: 0.08vw;
+        font-weight: 400;
+        font-size: 1.7vw;
+      }
+
+      @include screen-mobile {
+        font-family: Georgia;
+        font-size: 6.2vw;
+        letter-spacing: 0.4vw;
+      }
+    }
+
+    p {
+      font-size: 0.85vw;
+
+      @include screen-desktop {
+        padding-top: 0.5vw;
+      }
+
+      @include screen-mobile {
+        font-size: 4vw;
+        line-height: 3vh;
+      }
+    }
+  }
+}

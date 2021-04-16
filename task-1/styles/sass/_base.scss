@@ -1,0 +1,57 @@
+/*
+  Variables
+*/
+$white: #FFFFFF;
+$black: #000000;
+$gray-1: #6A707B;
+$gray-2: #E3E3E4;
+$blue-1: #4066A5;
+$blue-2: #4267B2;
+$blue-3: #2F4A80;
+$purple-1: #C13584;
+$purple-2: #8F2762;
+$light-blue-1: #1DA1F2;
+$light-blue-2: #177FBF;
+$red-1: #FF0000;
+$red-2: #CC0000;
+
+$screen-mobile: 375px;
+
+/*
+  Mixins
+*/
+@mixin remove-space-around {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin screen-mobile {
+  @media only screen and (max-width: $screen-mobile) {
+    @content
+  }
+};
+
+@mixin text-arial {
+  font-family: Arial;
+  font-weight: 400;
+}
+
+@mixin icon-hover($background-color, $clicked-color) {
+  &:hover {
+    background-color: $background-color;
+    color: $white;
+    border: 3px solid $background-color;
+  }
+
+  &:active {
+    background-color: $clicked-color;
+    color: $white;
+    border: 3px solid $clicked-color;
+  }
+}
+
+@mixin screen-desktop {
+  @media only screen and (min-width: 376px) {
+    @content
+  }
+}
