@@ -1,22 +1,44 @@
 /*
   Mixins
 */
+
+/*
+  Remove margin and padding around html elements
+ */
 @mixin remove-space-around {
   margin: 0;
   padding: 0;
 }
 
+/*
+  Apply styles when screen is under 375px
+*/
 @mixin screen-mobile {
   @media only screen and (max-width: $screen-mobile) {
     @content
   }
-};
+}
 
+/*
+  Apply styles when screen size is above 376px
+ */
+@mixin screen-desktop {
+  @media only screen and (min-width: 376px) {
+    @content
+  }
+}
+
+/*
+  Apply arial font and lighter weight to text
+ */
 @mixin text-arial {
   font-family: Arial;
   font-weight: 400;
 }
 
+/*
+  When icon is hovered change background and font color. Used for social icons
+ */
 @mixin icon-hover($background-color, $clicked-color) {
   &:hover {
     background-color: $background-color;
@@ -28,11 +50,5 @@
     background-color: $clicked-color;
     color: $white;
     border: 3px solid $clicked-color;
-  }
-}
-
-@mixin screen-desktop {
-  @media only screen and (min-width: 376px) {
-    @content
   }
 }

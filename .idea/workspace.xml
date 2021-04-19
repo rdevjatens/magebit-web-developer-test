@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5899ef9-3166-4562-82e9-05db2bcdfe5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/task-2-3/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/api/contact/classes/sendmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/api/contact/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/api/contact/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/api/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/img/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/img/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/img/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/img/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/img/image_summer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/public/sass/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/public/sass/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/sql-scripts/createTable.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/src/components/App/_app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/src/components/App/_app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterEmail/NewsletterEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterEmail/NewsletterEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterSocialIcons/NewsletterSocialIcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterSocialIcons/NewsletterSocialIcons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterTermsOfService/NewsletterTermsOfService.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterTermsOfService/NewsletterTermsOfService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/task-2-3/app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-2-3/site.conf" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task-2-3/app/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/task-2-3/app/.env" />
+        <option value="$PROJECT_DIR$/task-2-3/app/Dockerfile" />
+        <option value="$PROJECT_DIR$/task-2-3/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/task-2-3/README.md" />
+        <option value="$PROJECT_DIR$/task-2-3/app/public/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/components/App/App.js" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/components/App/_app.scss" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterEmail/NewsletterEmail.js" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterSocialIcons/NewsletterSocialIcons.js" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/components/NewsletterTermsOfService/NewsletterTermsOfService.js" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/api/index.php" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/admin/index.php" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/admin/Controller.php" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/admin/Db.php" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/admin/Model.php" />
+        <option value="$PROJECT_DIR$/task-2-3/backend/admin/View.php" />
+        <option value="$PROJECT_DIR$/task-2-3/app/src/index.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/magebit-web-developer-test.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="145" />
+    <option name="y" value="-15" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="magebit-web-developer-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magebit-web-developer-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magebit-web-developer-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magebit-web-developer-test" type="462c0819:PsiDirectoryNode" />
+              <item name="task-2-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magebit-web-developer-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magebit-web-developer-test" type="462c0819:PsiDirectoryNode" />
+              <item name="task-2-3" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magebit-web-developer-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magebit-web-developer-test" type="462c0819:PsiDirectoryNode" />
+              <item name="task-2-3" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="magebit-web-developer-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="magebit-web-developer-test" type="462c0819:PsiDirectoryNode" />
+              <item name="task-2-3" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="index.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5899ef9-3166-4562-82e9-05db2bcdfe5d" name="Default Changelist" comment="" />
+      <created>1618792594465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618792594465</updated>
+      <workItem from="1618792595723" duration="1894000" />
+      <workItem from="1618794522432" duration="1128000" />
+      <workItem from="1618817006567" duration="3000" />
+      <workItem from="1618817231112" duration="116000" />
+      <workItem from="1618817501279" duration="1707000" />
+      <workItem from="1618819347603" duration="1664000" />
+      <workItem from="1618822343843" duration="1780000" />
+      <workItem from="1618824157622" duration="1794000" />
+      <workItem from="1618825985660" duration="1353000" />
+      <workItem from="1618827997209" duration="1764000" />
+      <workItem from="1618829803439" duration="966000" />
+      <workItem from="1618831761332" duration="1055000" />
+      <workItem from="1618834438176" duration="2114000" />
+      <workItem from="1618836571924" duration="1188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18526000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31744966" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task-2-3/.travis.yml" />
+    <entry file="file://$PROJECT_DIR$/task-2-3/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/.env" />
+    <entry file="file://$PROJECT_DIR$/task-2-3/site.conf" />
+    <entry file="file://$PROJECT_DIR$/task-1/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-1/styles/sass/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/public/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/public/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/App/_app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/Navbar/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/Newsletter/Newsletter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/NewsletterEmail/NewsletterEmail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/NewsletterSocialIcons/NewsletterSocialIcons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/NewsletterTermsOfService/NewsletterTermsOfService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/NewsletterText/NewsletterText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/components/Success/Success.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+          <folding>
+            <element signature="e#6#16#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/admin/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/admin/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/admin/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/backend/admin/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-2-3/app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

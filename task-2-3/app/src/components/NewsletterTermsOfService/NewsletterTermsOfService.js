@@ -8,6 +8,9 @@ class NewsletterTermsOfService extends React.Component {
     };
   }
 
+  /*
+    Send checbox state to email component
+   */
   checkboxState(component) {
     if (this.state.checkboxState === 0) {
       this.setState({checkboxState: 1})
