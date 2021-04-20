@@ -15,7 +15,7 @@ $light-blue-2: #177FBF;
 $red-1: #FF0000;
 $red-2: #CC0000;
 
-$screen-mobile: 375px;
+$screen-mobile: 376px;
 
 /*
   Mixins
@@ -51,7 +51,7 @@ $screen-mobile: 375px;
 }
 
 @mixin screen-desktop {
-  @media only screen and (min-width: 376px) {
+  @media only screen and (min-width: 376.1px) {
     @content
   }
 }

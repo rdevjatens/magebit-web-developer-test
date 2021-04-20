@@ -1,7 +1,7 @@
 {
   "name": "magebit-web-developer-test",
   "version": "1.0.1",
-  "homepage": "https://malithmcr.github.io/react-php-contact-form/",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@types/react-router-dom": "^5.1.7",

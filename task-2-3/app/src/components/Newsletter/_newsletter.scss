@@ -3,11 +3,12 @@
 */
 .newsletter {
   padding: 4.5vw 5vw;
-  background: $white;
+  background: transparent;
 
   @include screen-mobile {
     height: 335px;
     margin: 50vw 5vw;
     letter-spacing: 0.1vw;
+    background: $white;
   }
 }

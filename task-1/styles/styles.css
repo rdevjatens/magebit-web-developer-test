@@ -15,10 +15,15 @@
   margin: 0;
   padding: 0;
 }
+@media only screen and (min-width: 376.1px) {
+  .navbar {
+    background: transparent;
+  }
+}
 .navbar ul {
   padding: 4vw 5vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .navbar ul {
     padding: 6vw 4.5vw;
   }
@@ -33,7 +38,7 @@
 .navbar li:not(:last-child) {
   margin-right: 0.7vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .navbar li {
     font-size: 3.6vw;
     padding: 1vw;
@@ -49,12 +54,12 @@
 .navbar .logo-text {
   color: #000000;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .navbar .logo-text {
     margin-right: 4.4vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .navbar .logo-text {
     display: none;
   }
@@ -63,7 +68,7 @@
   position: absolute;
   color: #4066A5;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .navbar .logo .icon-ic-pineapple {
     position: relative;
     top: 0.3vw;
@@ -71,7 +76,7 @@
     font-size: 2vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .navbar .logo .icon-ic-pineapple {
     position: absolute;
     top: 3vw;
@@ -87,14 +92,19 @@
   padding: 4.5vw 5vw;
   background: #FFFFFF;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 376.1px) {
+  .newsletter {
+    background: transparent;
+  }
+}
+@media only screen and (max-width: 376px) {
   .newsletter {
     height: 335px;
     margin: 50vw 5vw;
     letter-spacing: 0.1vw;
   }
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-text {
     padding: 1.8vw 2.2vw;
   }
@@ -102,14 +112,14 @@
 .newsletter-text h1 {
   font-weight: 400;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-text h1 {
     letter-spacing: 0.08vw;
     font-weight: 400;
     font-size: 1.7vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-text h1 {
     font-family: Georgia;
     font-size: 6.2vw;
@@ -119,12 +129,12 @@
 .newsletter-text p {
   font-size: 0.85vw;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-text p {
     padding-top: 0.5vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-text p {
     font-size: 4vw;
     line-height: 3vh;
@@ -135,7 +145,7 @@
   background: #FFFFFF;
   z-index: 999;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-email {
     width: 135%;
     margin-top: 0.4vw;
@@ -143,7 +153,7 @@
     border-left: 0.3vw solid #4066A5;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-email {
     width: 98%;
     margin-top: 6vw;
@@ -152,16 +162,16 @@
     padding-bottom: 0.2vh;
   }
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-email input {
     width: 90%;
-    height: 7%;
+    height: 6%;
     border: 0px;
     font-size: 0.9vw;
     padding-left: 2vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-email input {
     width: 80%;
     height: 15%;
@@ -174,13 +184,13 @@
   outline: none;
   box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-email:hover {
     border: 1px solid #4066A5;
     border-left: 0.3vw solid #4066A5;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-email:hover {
     border: 1px solid #4066A5;
     border-left: 1.5vw solid #4066A5;
@@ -195,7 +205,7 @@
   opacity: 0.5;
   font-size: 1vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-email .icon-ic_arrow {
     font-size: 3.5vw;
   }
@@ -205,7 +215,7 @@
   padding: 1.7vw 2.2vw;
   font-size: 0.9vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-terms-of-service {
     font-size: 5.5vw;
     padding: 2vw 0vw;
@@ -218,7 +228,7 @@
   -moz-appearance: none;
   border: 1px solid #6A707B;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   .newsletter-terms-of-service input[type=checkbox i] {
     position: relative;
     top: 0.5vw;
@@ -227,7 +237,7 @@
     height: 1.4vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-terms-of-service input[type=checkbox i] {
     position: relative;
     top: 3vw;
@@ -256,7 +266,7 @@
   text-align: center;
   margin-top: 4.5vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-social-icons {
     margin-top: 14vw;
   }
@@ -267,8 +277,10 @@
   border-radius: 50%;
   font-size: 0.6vw;
   margin: 0.5vw;
+  color: #6A707B;
+  opacity: 0.6;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-social-icons span {
     margin: 0vw 1.5vw;
     padding: 3vw;
@@ -285,7 +297,7 @@
   color: #FFFFFF;
   border: 3px solid #CC0000;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-social-icons .icon-ic_twitter {
     padding: 3.4vw;
   }
@@ -303,7 +315,7 @@
 .newsletter-social-icons .icon-ic_facebook {
   padding: 0.6vw 0.8vw;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-social-icons .icon-ic_facebook {
     font-size: 4vw;
     padding: 3.2vw 4.2vw;
@@ -319,7 +331,7 @@
   color: #FFFFFF;
   border: 3px solid #2F4A80;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .newsletter-social-icons .icon-ic-instagram {
     font-size: 4vw;
     padding: 3vw 3.5vw;
@@ -340,7 +352,7 @@ body {
   margin: 0;
   padding: 0;
 }
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 376.1px) {
   body {
     display: flex;
   }
@@ -353,8 +365,9 @@ p {
 
 .right-column {
   width: 35.5%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .right-column {
     width: 100%;
     height: 100%;
@@ -369,7 +382,7 @@ p {
   background: url("../img/image_summer.png");
   background-size: cover;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .left-column {
     display: none;
     width: 0%;

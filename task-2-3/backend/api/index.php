@@ -14,5 +14,5 @@ $_POST = json_decode($rest_json, true);
 $host = substr($_POST['email'], strpos($_POST['email'], '@') + 1);
 $email = $_POST['email'];
 
-$sql = "INSERT INTO email (id, email, host, date) VALUES (1, '" . $email . "','" . $host . "', CURDATE())";
-$db->insertIntoTable($sql);
+isset($_POST['email']) ? $sql = "INSERT INTO emails (email, host, date) VALUES ('" . $email . "','" . $host . "', CURDATE())" : $sql = '';
+$db->sqlAction($sql);

@@ -36,17 +36,21 @@ class NewsletterEmail extends NewsletterTermsOfService {
     this.setState({email: email.target.value})
 
     if (email.target.value === '') {
-      this.setState({errorMessage: 'Cant leave blank'})
+      this.setState({errorMessage: 'Email address is required'})
       this.setState({emailState: 0})
     } else {
       this.setState({emailState: 0})
-
       if (!pattern.test(email.target.value)) {
-        this.setState({errorMessage: 'Incorrect email'})
+        this.setState({errorMessage: 'Please provide a valid e-mail address'})
         this.setState({emailState: 0})
       } else {
-        this.setState({errorMessage: ''})
-        this.setState({emailState: 1})
+        if (email.target.value.substr(-2) === 'co') {
+          this.setState({errorMessage: 'We are not accepting subscriptions from Colombia'})
+          this.setState({emailState: 0})
+        } else {
+          this.setState({errorMessage: ''})
+          this.setState({emailState: 1})
+        }
       }
     }
   }
@@ -65,7 +69,7 @@ class NewsletterEmail extends NewsletterTermsOfService {
           this.setState({errorMessage: 'Fill out the email'})
         }
       } else {
-        this.setState({errorMessage: 'Check the checkbox'})
+        this.setState({errorMessage: 'You must accept the terms and conditions'})
       }
     }
 

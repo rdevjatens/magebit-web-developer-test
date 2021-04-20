@@ -19,7 +19,7 @@ class View {
     public function renderForm() {
         echo "<form action='$this->action' method='$this->method' name='$this->name'>";
 
-        foreach ($this->inputArray as $input) {
+        foreach (array_unique($this->inputArray) as $input) {
             echo $input;
         }
 
@@ -37,8 +37,12 @@ class View {
             $date = $email['date'];
 
             echo "<tr>";
-            echo "<th> $date</th>";
+            echo "<form action='' method='POST' name='delete'>";
+            echo "<th>$date</th>";
             echo "<th>$fullEmail</th>";
+            echo "<input type='hidden'/>";
+            echo "<th><input type='submit' name='delete' value='Delete $fullEmail'/>";
+            echo "</form>";
             echo "</tr>";
         }
     }

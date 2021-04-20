@@ -11,12 +11,7 @@ class Model extends Db{
         $this->conn = $this->connectToDb();
     }
 
-    public function insertIntoTable($sql) {
-        $this->conn->query($sql);
-    }
-
-    public function selectFromTable($sql)
-    {
+    public function sqlAction ($sql) {
         return $this->conn->query($sql);
     }
 }

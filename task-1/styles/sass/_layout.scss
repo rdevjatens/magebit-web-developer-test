@@ -13,6 +13,7 @@ p {
 
 .right-column {
   width: 35.5%;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
 
   @include screen-mobile {
     width: 100%;

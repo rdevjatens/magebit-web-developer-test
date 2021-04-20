@@ -9,7 +9,7 @@ class Controller extends Model {
 
     public function sort($postObject, $sql) {
         if (isset($postObject) && $postObject != '') {
-            return $this->selectFromTable($sql);
+            return $this->sqlAction($sql);
         }
     }
 }
