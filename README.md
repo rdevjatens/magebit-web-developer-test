@@ -3,7 +3,7 @@
 1. Clone the project to your web root directory
 `git clone https://github.com/rdevjatens/magebit-web-developer-test.git`
 2. Create sample table in the database
-Import magebit-web-developer-test/sample.sql in your mysql server
+Import magebit-web-developer-test/magebit.sql in your mysql server
 Insert credentials into magebit-web-developer-test/task-2-3/backend/admin/Db.php
 3. Execute npm install
 Go to magebit-web-developer-test/task-2-3/ folder and run command
