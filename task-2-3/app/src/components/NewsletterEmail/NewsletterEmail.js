@@ -59,18 +59,16 @@ class NewsletterEmail extends NewsletterTermsOfService {
     When email passed all input tests check if checkbox is checked
    */
   checkCheckbox() {
-    if (this.state.startInput === 1) {
-      if (document.getElementById("checkbox").value === '1') {
-        if (this.state.emailState === 1) {
-          this.setState({errorMessage: ''});
-          this.props.history.push('/subscribed');
-          this.sendRequest();
-        } else {
-          this.setState({errorMessage: 'Fill out the email'})
-        }
+    if (document.getElementById("checkbox").value === '1') {
+      if (this.state.emailState === 1) {
+        this.setState({errorMessage: ''});
+        this.props.history.push('/subscribed');
+        this.sendRequest();
       } else {
-        this.setState({errorMessage: 'You must accept the terms and conditions'})
+        this.setState({errorMessage: 'Please provide a valid e-mail address'})
       }
+    } else {
+      this.setState({errorMessage: 'You must accept the terms and conditions'})
     }
 
     this.setState({startInput: 1})
@@ -80,8 +78,8 @@ class NewsletterEmail extends NewsletterTermsOfService {
     return (
       <div className="email-container">
         <div className="newsletter-email">
-          <input type="email" placeholder="Type your email address here..." onChange={ this.checkEmail.bind(this) } onClick={ this.checkCheckbox.bind(this) }/>
-          <span className="icon-ic_arrow"></span>
+          <input type="email" placeholder="Type your email address here..." onChange={ this.checkEmail.bind(this) }/>
+          <button onClick={ this.checkCheckbox.bind(this) }><span className="icon-ic_arrow"></span></button>
         </div>
         <span>{ this.state.errorMessage }</span>
       </div>

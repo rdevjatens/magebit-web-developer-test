@@ -19,6 +19,15 @@
       padding-bottom: 0.2vh;
     }
 
+    button {
+      background: transparent;
+      border: 0px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
     input {
       @include screen-desktop {
         width: 84%;
